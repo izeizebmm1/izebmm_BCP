@@ -1,0 +1,8 @@
+{
+  "name": "Remix: กสศ.01 ป.2 บ้านเชียงพิณ",
+  "description": "ระบบบันทึกข้อมูลแบบขอรับเงินอุดหนุนนักเรียนยากจน (นร./กสศ.01) ชั้นประถมศึกษาปีที่ 2 โรงเรียนบ้านเชียงพิณ อัปเดตแบบเรียลไทม์",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

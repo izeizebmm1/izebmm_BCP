@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Sarabun", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-natural-bg: #FAF9F6;
+  --color-natural-text: #4A453E;
+  --color-natural-dark: #2D2A26;
+  --color-natural-accent: #8BA888;
+  --color-natural-accent-hover: #7A9577;
+  --color-natural-border: #E5E2D9;
+  --color-natural-subtle: #F8F7F2;
+  --color-natural-muted: #8C857B;
+  --color-natural-divider: #F0EFEA;
+}
+
+body {
+  background-color: #FAF9F6;
+  color: #4A453E;
+}
+
+/* Natural Tones Global Form Elements Overrides */
+input:focus, select:focus, textarea:focus {
+  border-color: #8BA888 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(139, 168, 136, 0.25) !important;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  accent-color: #8BA888 !important;
+}
+
+.accent-blue-600 {
+  accent-color: #8BA888 !important;
+}
+
+.text-blue-600 {
+  color: #8BA888 !important;
+}
+
+.focus\:ring-blue-500:focus {
+  --tw-ring-color: #8BA888 !important;
+}
